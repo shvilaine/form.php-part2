@@ -1,0 +1,16 @@
+:root {
+    display: flex;
+    padding: 1em;
+}
+
+div {
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    margin-inline-start: 0.5rem;
+    margin-block-start: 1rem;
+}
+
+div #message {
+    height: 10rem;
+}
